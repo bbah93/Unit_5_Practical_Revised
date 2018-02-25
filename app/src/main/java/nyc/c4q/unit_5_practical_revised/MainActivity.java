@@ -28,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
     RandomUser_Adapter randomUser_adapter;
     List<Results> randomPeopleList = new ArrayList<>();
 
+    //TODO: Add db
+    //TODO: Save data to db after first retrofit call
+    //TODO: On orientation change load data from db so that we are not changing user.
+
+    /**
+     * Add new users ever 4 hours. Stop after a day. (Retrofitcalls to fill database)
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
